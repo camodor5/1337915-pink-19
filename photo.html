@@ -4,134 +4,172 @@
     <title>Приложение для обработки фотографий PINK</title>
   </head>
   <body>
+
     <header class="page-header">
-      <img class="page-header__logo" src="" alt="Логотип Pink">
+      <img class="post__image" class="page-header__logo" src="" alt="Логотип Pink">
       <nav class="page-header__nav">
         <ul class="page-header__site-list">
           <li class="page-header__site-item">
-            <a class="page-header__link">Главная</a>
+            <a class="page-header__link" href="">Главная</a>
+          </li>
+          <li class="page-header__site-item">
+            <a class="page-header__link" href="">Фотографии</a>
           </li>
           <li class="page-header__site-item">
             <a class="page-header__link
-                      page-header__link--page-current"
-               href="">
-              Фотографии
+                      page-header__link--page-current" href="">
+              Конкурс
             </a>
           </li>
           <li class="page-header__site-item">
-            <a class="page-header__link">Конкурс</a>
-          </li>
-          <li class="page-header__site-item">
-            <a class="page-header__link">HTML Academy</a>
+            <a class="page-header__link" href="">HTML Academy</a>
           </li>
           <!--Проставить линки!-->
         </ul>
       </nav>
     </header>
+
+
     <main class="page-main">
-      <div class="introducion">
-        Взгляните на фотографии, которые выкладывают пользователи!
-        Видите, как не хватает ваших?
+      <div class="page-intro">
+        <p class="page-intro__title">Фотографии пользователей</p>
       </div>
-      <div class="post">
-        <img src="" alt="Панорама дня" class="post__panorama">
-        <div class="post__comment">
-          <h4 class="post__commentator">Анна <span class="post__timing">(5 минут назад)</span>
-          </h4>
-          <p class="post__comment-text">
-            Прыгать или нет? Напишите в комментарии свой совет
-            и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
-          </p>
-          <img class="post__heart-image" src="" alt="Сердце">
-          <span class="post__likes-amount">Нравится: 215</span>
+
+      <section class="gallery">
+        <h2 class="visually-hidden">Фотографии пользователей</h2>
+        <p class="gallery__introducion">
+          Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
+        </p>
+        <div class="gallery__content">
+          <article class="post post--main">
+            <img class="post__image" src="" alt="Панорама дня" class="post__panorama">
+            <div class="post__comment">
+              <h4 class="post__commentator">Анна <span class="post__timing">(5 минут назад)</span>
+              </h4>
+              <p class="post__comment-text">
+                Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+              </p>
+              <img class="post__image" class="post__heart-image" src="" alt="Сердце">
+              <span class="post__likes-amount">Нравится: 215</span>
+            </div>
+          </article>
+
+
+
+          <div class="gallery__item-wrapper">
+            <article class="post">
+              <img class="post__image" src="" alt="Луноход" class="post__image">
+              <div class="post__comment">
+                <h4 class="post__commentator">Левон <span class="post__timing">(5 часов назад)</span>
+                </h4>
+                <p class="post__comment-text">
+                  Вчера он на луну летал, сегодня в руки к нам попал.
+                </p>
+                <img class="post__image" class="post__heart-image" src="" alt="Сердце">
+                <span class="post__likes-amount">Нравится: 356</span>
+              </div>
+            </article>
+
+
+            <article class="post">
+              <img class="post__image" src="" alt="Барабаны" class="post__image">
+              <div class="post__comment">
+                <h4 class="post__commentator">Антон <span class="post__timing">(12 часов назад)</span>
+                </h4>
+                <p class="post__comment-text">
+                  Соседи будут рады!
+                </p>
+              <img class="post__image" class="post__heart-image" src="" alt="Сердце">
+              <span class="post__likes-amount">Нравится: 666</span>
+              </div>
+            </article>
+
+            <article class="post">
+              <img class="post__image" src="" alt="Стеклянная крыша" class="post__image">
+              <div class="post__comment">
+                <h4 class="post__commentator">Борис <span class="post__timing">(20 часов назад)</span>
+                </h4>
+                <p class="post__comment-text">
+                  Здесь могла быть ваша цитата о высоком и вечном
+                </p>
+                <img class="post__image" class="post__heart-image" src="" alt="Сердце">
+                <span class="post__likes-amount">Нравится: 215</span>
+              </div>
+            </article>
+
+            <article class="post">
+              <img class="post__image" src="" alt="Стеклянная крыша" class="post__image">
+              <div class="post__comment">
+                <h4 class="post__commentator">Сергей <span class="post__timing">(20 часов назад)</span>
+                </h4>
+                <p class="post__comment-text">
+                  Самая кубанская в мире
+                </p>
+                <img class="post__image" class="post__heart-image" src="" alt="Сердце">
+                <span class="post__likes-amount">Нравится: 4</span>
+              </div>
+            </article>
+
+            <article class="post">
+              <img class="post__image" src="" alt="Стеклянная крыша" class="post__image">
+              <div class="post__comment">
+                <h4 class="post__commentator">Максим <span class="post__timing">(20 часов назад)</span>
+                </h4>
+                <p class="post__comment-text">
+                  Где снег-то?
+                </p>
+                <img class="post__image" class="post__heart-image" src="" alt="Сердце">
+                <span class="post__likes-amount">Нравится: 215</span>
+              </div>
+            </article>
+
+            <article class="post">
+              <img class="post__image" src="" alt="Стеклянная крыша" class="post__image">
+              <div class="post__comment">
+                <h4 class="post__commentator">Борис <span class="post__timing">(20 часов назад)</span>
+                </h4>
+                <p class="post__comment-text">
+                  Всем GM и взаимные лайки!
+                </p>
+                <img class="post__image" class="post__heart-image" src="" alt="Сердце">
+                <span class="post__likes-amount">Нравится: 2560</span>
+              </div>
+            </article>
+
+
+            <p class="gallery__post-advertisement">
+              Затмите их всех! Выкладывайте все, что накопилось в телефоне!
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="post">
-        <img src="" alt="Луноход" class="post__image">
-        <div class="post__comment">
-          <h4 class="post__commentator">Левон <span class="post__timing">(5 часов назад)</span>
-          </h4>
-          <p class="post__comment-text">
-            Вчера он на луну летал, сегодня в руки к нам попал.
-          </p>
-          <img class="post__heart-image" src="" alt="Сердце">
-          <span class="post__likes-amount">Нравится: 356</span>
-        </div>
-      </div>
-      <div class="post">
-        <img src="" alt="Барабаны" class="post__image">
-        <div class="post__comment">
-          <h4 class="post__commentator">Антон <span class="post__timing">(12 часов назад)</span>
-          </h4>
-          <p class="post__comment-text">
-            Соседи будут рады!
-          </p>
-          <img class="post__heart-image" src="" alt="Сердце">
-          <span class="post__likes-amount">Нравится: 666</span>
-        </div>
-      </div>
-      <div class="post">
-        <img src="" alt="Стеклянная крыша" class="post__image">
-        <div class="post__comment">
-          <h4 class="post__commentator">Борис <span class="post__timing">(20 часов назад)</span>
-          </h4>
-          <p class="post__comment-text">
-            Здесь могла быть ваша цитата о высоком и вечном
-          </p>
-          <img class="post__heart-image" src="" alt="Сердце">
-          <span class="post__likes-amount">Нравится: 215</span>
-        </div>
-      </div>
-      <div class="post">
-        <img src="" alt="Стеклянная крыша" class="post__image">
-        <div class="post__comment">
-          <h4 class="post__commentator">Сергей <span class="post__timing">(20 часов назад)</span>
-          </h4>
-          <p class="post__comment-text">
-            Самая кубанская в мире
-          </p>
-          <img class="post__heart-image" src="" alt="Сердце">
-          <span class="post__likes-amount">Нравится: 4</span>
-        </div>
-      </div>
-      <div class="post">
-        <img src="" alt="Стеклянная крыша" class="post__image">
-        <div class="post__comment">
-          <h4 class="post__commentator">Максим <span class="post__timing">(20 часов назад)</span>
-          </h4>
-          <p class="post__comment-text">
-            Где снег-то?
-          </p>
-          <img class="post__heart-image" src="" alt="Сердце">
-          <span class="post__likes-amount">Нравится: 215</span>
-        </div>
-      </div>
-      <div class="post">
-        <img src="" alt="Стеклянная крыша" class="post__image">
-        <div class="post__comment">
-          <h4 class="post__commentator">Борис <span class="post__timing">(20 часов назад)</span>
-          </h4>
-          <p class="post__comment-text">
-            Всем GM и взаимные лайки!
-          </p>
-          <img class="post__heart-image" src="" alt="Сердце">
-          <span class="post__likes-amount">Нравится: 2560</span>
-        </div>
-      </div>
-      <div class="push">
-        Затмите их всех!<br>
-        Выкладывайте все, что накопилось в <br>телефоне!
-      </div>
+      </section>
+
+      <section class="editor">
+        <img src="" alt="" class="editor-image">
+        <form class="editor-form">
+          <label for="size" name="size">Значок</label>
+          <input type="range" name="size" id="size" min="0" max="100" value="50">
+          <label for="saturation" name="saturation">Значок</label>
+          <input type="range" name="saturation" id="saturation" min="0" max="100" value="50">
+          <label for="contrast" name="contrast">Значок</label>
+          <input type="range" name="contrast" id="contrast" min="0" max="100" value="50">
+          <button type="submit" class="editor__button">Запостить</button>
+          <button type="button" class="editor_escape">Отменить</button>
+        </form>
+      </section>
+
     </main>
+
+
     <footer class="footer">
-      <img class="footer--image" src="" alt="Логотип Пинк черный">
-      <ul class="footer--list">
-        <li class="footer--list-item"><a href="" class="footer--link"></a></li>
-        <li class="footer--list-item"><a href="" class="footer--link"></a></li>
-        <li class="footer--list-item"><a href="" class="footer--link"></a></li>
+      <img class="footer__image" class="footer__image" src="" alt="Логотип Пинк черный">
+      <ul class="footer__list">
+        <li class="footer__list-item"><a href="" class="footer__link">Ссылка на твиттер</a></li>
+        <li class="footer__list-item"><a href="" class="footer__link">Ссылка на фейсбук</a></li>
+        <li class="footer__list-item"><a href="" class="footer__link">Ссылка на ютуб</a></li>
       </ul>
-      <div class="footer--developed-by">
-        <span class="footer--developed">Разработано</span>
-        <img class="footer--html-logo" src="" alt="HTML Academy">
+      <div class="footer__rights">
+        <span class="footer__span">Разработано</span>
+        <img class="footer__html-image" class="footer__html-logo" src="" alt="HTML Academy">
       </div>
     </footer>
